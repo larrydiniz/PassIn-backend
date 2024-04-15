@@ -1,0 +1,18 @@
+POST http://localhost:3333/events
+Content-Type: application/json
+
+{
+    "title": "NLW Expert",
+    "details": "Evento de programação, cujo participante pode acompanhar e reproduzir em aulas a criação de um projeto de portfólio.",
+    "maximumAttendees": 100
+}
+
+###
+
+POST http://localhost:3333/events/9d66d2e9-e21a-4632-ab29-4a0583ba4b43/attendees
+Content-Type: application/json
+
+{
+    "name": "Larissa Diniz",
+    "email": "laridiniz@email.com"
+}
